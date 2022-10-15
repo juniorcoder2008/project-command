@@ -12,7 +12,7 @@
     "url": "https://github.com/juniorcoder2008/project-command"
   },
   "bin": "./index.js",
-  "keywords": [],
+  "keywords": ["cli", "javascript", "sass", "template", "setup", "gulp"],
   "author": "",
   "license": "ISC",
   "dependencies": {
