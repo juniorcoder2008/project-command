@@ -51,7 +51,10 @@ figlet('JS Project Setup', (err, data) => {
                 
               } else {
                 exec(`cd ${projectName} && npm run start`, (e, stdout, stderr) => {
-                  console.log(stdout);
+                  console.log('👍 Starting live server...');
+                  setTimeout(() => {
+                    console.log('👁 Watching index.html, index.sass and script.js')
+                  }, 500)
                 })
               }
             })
