@@ -1,11 +1,11 @@
 {
-  "name": "project-command",
-  "version": "1.0.0",
+  "name": "create-setup",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "create-setup": "node ."
+    "start": "node ."
   },
   "repository": {
     "type": "git",

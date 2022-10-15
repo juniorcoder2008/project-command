@@ -33,7 +33,7 @@ figlet('JS Project Setup', (err, data) => {
 
           console.log(chalk.greenBright('\n\n✓ The Setup has been completed succesfully! ✓'));
 
-            rl.question('\nDo you want to quit or start the project server? (q/s)', answer => {
+            rl.question('\nDo you want to quit or start the project server? (q/s) ', answer => {
               if(answer != 's') {
                 console.log(chalk.redBright('\n\nSELF DESTRUCTION IN:'))
                 setTimeout(() => {
@@ -50,7 +50,7 @@ figlet('JS Project Setup', (err, data) => {
                 }, 500)
                 
               } else {
-                exec('npm run serve', (e, stdout, stderr) => {
+                exec(`cd ${projectName} && npm run start`, (e, stdout, stderr) => {
                   console.log(stdout);
                 })
               }
