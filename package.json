@@ -5,8 +5,13 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "create-setup": "node ."
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/juniorcoder2008/project-command"
+  },
+  "bin": "./index.js",
   "keywords": [],
   "author": "",
   "license": "ISC",
